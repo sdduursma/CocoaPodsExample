@@ -16,6 +16,7 @@
 		669C1AC41CF34DC800055D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669C1AC21CF34DC800055D0A /* LaunchScreen.storyboard */; };
 		669C1ACF1CF34DC800055D0A /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C1ACE1CF34DC800055D0A /* ExampleTests.swift */; };
 		669C1ADA1CF34DC800055D0A /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C1AD91CF34DC800055D0A /* ExampleUITests.swift */; };
+		669C1AE81CF3550200055D0A /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C1AE71CF3550200055D0A /* Counter.swift */; };
 		7AC80BFF493557DE099FE11D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0376979116E9463D6D4EDE2 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		669C1AD51CF34DC800055D0A /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669C1AD91CF34DC800055D0A /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		669C1ADB1CF34DC800055D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669C1AE71CF3550200055D0A /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		97BC195DDEE07B300F7008F5 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF31DD2A0F44B8AAF632DCBB /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E0376979116E9463D6D4EDE2 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 			children = (
 				669C1AB91CF34DC800055D0A /* AppDelegate.swift */,
 				669C1ABB1CF34DC800055D0A /* ViewController.swift */,
+				669C1AE71CF3550200055D0A /* Counter.swift */,
 				669C1ABD1CF34DC800055D0A /* Main.storyboard */,
 				669C1AC01CF34DC800055D0A /* Assets.xcassets */,
 				669C1AC21CF34DC800055D0A /* LaunchScreen.storyboard */,
@@ -429,6 +432,7 @@
 			files = (
 				669C1ABC1CF34DC800055D0A /* ViewController.swift in Sources */,
 				669C1ABA1CF34DC800055D0A /* AppDelegate.swift in Sources */,
+				669C1AE81CF3550200055D0A /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
